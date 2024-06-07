@@ -7,3 +7,11 @@ To play against AI, you will need an OpenAI account, login, and navigate to http
 To run the app, navigate to the app root directory:
 `npm install`
 `npm run dev`
+
+Or extract the `dist` folder from the ZIP file.
+If you have `npm` installed, you can use `serve` to serve the files:
+
+```
+npm install -g serve
+serve -s dist
+```
